@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0b6e6a">
+  <meta name="description" content="中国語ピンイン練習 — 単母音・複母音・子音・鼻母音・声調（真人録音）">
+  <title>ピンイン練習｜中国語入門</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b6e6a'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-size='34' fill='white' font-family='serif'%3E拼%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../shared/site.css">
+  <link rel="stylesheet" href="pinyin.css">
+</head>
+<body class="page-pinyin">
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-brand" href="../index.html">
+        <span class="site-brand__mark">中</span>
+        <span class="site-brand__text">中国語入門<small>BEGINNER COURSE</small></span>
+      </a>
+      <nav class="site-nav" aria-label="メインメニュー">
+        <a href="../index.html">ホーム</a>
+        <a class="is-active" href="./pinyin.html">ピンイン</a>
+        <a href="../lesson1/index.html">第1課</a>
+      </nav>
+    </div>
+  </header>
+
+  <a class="sr-only" href="#home">メインコンテンツへ</a>
+  <div class="content">
+    <!-- ホーム -->
+    <div id="home" class="page active" role="region" aria-label="ホーム">
+      <div class="card card-home">
+        <div class="home-head">
+          <div class="seal" aria-hidden="true">拼</div>
+          <h1>ピンイン</h1>
+        </div>
+        <button type="button" class="nav-btn" data-goto="section1">1. 単母音（基本の母音）</button>
+        <button type="button" class="nav-btn" data-goto="section2">2. 複母音</button>
+        <button type="button" class="nav-btn" data-goto="section3">3. 子音（その１）</button>
+        <button type="button" class="nav-btn" data-goto="section4">4. 声調の変化</button>
+        <button type="button" class="nav-btn" data-goto="section5">5. 子音（その２）</button>
+        <button type="button" class="nav-btn" data-goto="section6">6. 鼻母音</button>
+        <button type="button" class="nav-btn" data-goto="section7">7. 声調の聞き比べ</button>
+        <button type="button" class="nav-btn" data-goto="section8">8. 声調符号の付け方</button>
+        <button type="button" class="nav-btn" data-goto="section9">9. 儿化</button>
+        <button type="button" class="nav-btn" data-goto="section10">10. 隔音符号</button>
+        <button type="button" class="nav-btn" data-goto="section11">11. ピンインのまとめ</button>
+      </div>
+    </div>
+
+    <!-- Section 1 -->
+    <div id="section1" class="page" role="region" aria-label="単母音" hidden>
+      <button type="button" class="back" data-goto="home">← 戻る</button>
+      <div class="card">
+        <h2>1. 単母音（基本の母音）</h2>
+        <p>
+          a：日本語の「あ」に似ていますが、口を大きく開けて発音します。<br>
+          o：口を丸くして、後ろで発音します。<br>
+          e：舌の根元を少し後ろに引いて発音します。<br>
+          i：日本語の「い」に似ています。<br>
+          u：日本語の「う」と似ていますが、唇を丸くして前に出して発音します。<br>
+          ü：まず「u」の口形を作り、その状態で「i」と発音します。
+        </p>
+        <p class="explanation">説明: 母音は中国語発音の基本です。口の開き具合や舌の位置を意識して、ゆっくり正確に練習してください。</p>
+        <div class="pinyin-list">
+          <span class="pinyin" data-sound="a">a</span>
+          <span class="pinyin" data-sound="o">o</span>
+          <span class="pinyin" data-sound="e">e</span>
+          <span class="pinyin" data-sound="i">i</span>
+          <span class="pinyin" data-sound="u">u</span>
+          <span class="pinyin" data-sound="v" title="ü">ü</span>
+        </div>
+        <div class="quiz-section" data-quiz-unit="section1">
+          <h3>発音練習クイズ</h3>
+          <p class="quiz-instructions">再生を押して音声を聴き、正しいピンインを選んでください。</p>
+          <div class="quiz-toolbar">
+            <button type="button" class="play-quiz-btn" data-quiz-play>▶ 再生</button>
+            <span class="quiz-score" data-quiz-score aria-live="polite"></span>
+          </div>
+          <div class="quiz-options" data-quiz-options></div>
+          <p class="quiz-result" data-quiz-result aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div id="section2" class="page" role="region" aria-label="複母音" hidden>
+      <button type="button" class="back" data-goto="home">← 戻る</button>
+      <div class="card">
+        <h2>2. 複母音（二つ以上の母音の組み合わせ）</h2>
+        <p>
+          ai, ei, ao, ou, ia（ya）、ie（ye）、ua（wa）、uo（wo）、<br>
+          üe（yue）、iao（yao）、iou（you）、uai（wai）、uei（wei）、er
+        </p>
+        <p class="explanation">説明: 複母音は複数の母音が連続して発音されます。各母音の切り替えに注意し、滑らかに発音できるよう練習してください。</p>
+        <div class="pinyin-list">
+          <span class="pinyin" data-sound="ai">ai</span>
+          <span class="pinyin" data-sound="ei">ei</span>
+          <span class="pinyin" data-sound="ao">ao</span>
+          <span class="pinyin" data-sound="ou">ou</span>
+          <span class="pinyin" data-sound="ia">ia</span>
+          <span class="pinyin" data-sound="ie">ie</span>
+          <span class="pinyin" data-sound="ua">ua</span>
+          <span class="pinyin" data-sound="uo">uo</span>
+          <span class="pinyin" data-sound="ve" title="üe">üe</span>
+          <span class="pinyin" data-sound="iao">iao</span>
+          <span class="pinyin" data-sound="iou">iou</span>
+          <span class="pinyin" data-sound="uai">uai</span>
+          <span class="pinyin" data-sound="uei">uei</span>
+          <span class="pinyin" data-sound="er">er</span>
+        </div>
+        <div class="quiz-section" data-quiz-unit="section2">
+          <h3>発音練習クイズ</h3>
+          <p class="quiz-instructions">再生を押して音声を聴き、正しいピンインを選んでください。</p>
+          <div class="quiz-toolbar">
+            <button type="button" class="play-quiz-btn" data-quiz-play>▶ 再生</button>
+            <span class="quiz-score" data-quiz-score aria-live="polite"></span>
+          </div>
+          <div class="quiz-options" data-quiz-options></div>
+          <p class="quiz-result" data-quiz-result aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div id="section3" class="page" role="region" aria-label="子音その1" hidden>
+      <button type="button" class="back" data-goto="home">← 戻る</button>
+      <div class="card">
+        <h2>3. 子音（その１）</h2>
+        <p>b(o), p(o), m(o), f(o), d(e), t(e), n(e), l(e), g(e), k(e), h(o)</p>
+        <p class="explanation">説明: 基本の子音は発音の土台です。正しい口の形と発声方法を確認しながら練習してください。</p>
+        <div class="pinyin-list">
+          <span class="pinyin" data-sound="b">b</span>
+          <span class="pinyin" data-sound="p">p</span>
+          <span class="pinyin" data-sound="m">m</span>
+          <span class="pinyin" data-sound="f">f</span>
+          <span class="pinyin" data-sound="d">d</span>
+          <span class="pinyin" data-sound="t">t</span>
+          <span class="pinyin" data-sound="n">n</span>
+          <span class="pinyin" data-sound="l">l</span>
+          <span class="pinyin" data-sound="g">g</span>
+          <span class="pinyin" data-sound="k">k</span>
+          <span class="pinyin" data-sound="h">h</span>
+        </div>
+        <div class="quiz-section" data-quiz-unit="section3">
+          <h3>発音練習クイズ</h3>
+          <p class="quiz-instructions">再生を押して音声を聴き、正しいピンインを選んでください。</p>
+          <div class="quiz-toolbar">
+            <button type="button" class="play-quiz-btn" data-quiz-play>▶ 再生</button>
+            <span class="quiz-score" data-quiz-score aria-live="polite"></span>
+          </div>
+          <div class="quiz-options" data-quiz-options></div>
+          <p class="quiz-result" data-quiz-result aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 4 -->
+    <div id="section4" class="page" role="region" aria-label="声調の変化" hidden>
+      <button type="button" class="back" data-goto="home">← 戻る</button>
+      <div class="card">
+        <h2>4. 声調の変化</h2>
+        <p class="example-line">
+          <strong>第三声の変調</strong><br>
+          二つの第三声が連続すると、最初の音節は通常第二声に。<br>
+          例：nǐ　hǎo → ní　hǎo<br>
+          <button type="button" class="play-button" data-play="ni3hao3">原形 nǐ hǎo</button>
+          <button type="button" class="play-button" data-play="ni2hao3">変調 ní hǎo</button>
+        </p>
+        <p class="example-line">
+          <strong>「一」の変調</strong><br>
+          数を数える場合：第一声を保つ。例：「一」（yī）
+          <button type="button" class="play-button" data-play="yi">再生</button><br>
+          「一」+第四声＝「yí」　例：「一半」（yí bàn）
+          <button type="button" class="play-button" data-play="yiban">再生</button><br>
+          「一」+第一〜三声＝「yì」　例：「一起」（yì qǐ）
+          <button type="button" class="play-button" data-play="yiqi">再生</button>
+        </p>
+        <p class="example-line">
+          <strong>「不」の変調</strong><br>
+          「不」+第四声＝「bú」　例：「不是」（bú shì）
+          <button type="button" class="play-button" data-play="bushi">再生</button>
+        </p>
+        <p class="explanation">説明: 連続する声調の変化や、「一」「不」の変調は中国語発音の重要ルールです。しっかり理解し、反復練習しましょう。</p>
+      </div>
+    </div>
+
+    <!-- Section 5 -->
+    <div id="section5" class="page" role="region" aria-label="子音その2" hidden>
+      <button type="button" class="back" data-goto="home">← 戻る</button>
+      <div class="card">
+        <h2>5. 子音（その２）</h2>
+        <p>j(i), q(i), x(i), z(i), c(i), s(i), zh(i), ch(i), sh(i), r(i)</p>
+        <p class="explanation">説明: 子音の細かい発音に慣れるため、口の形と舌の位置をしっかり意識して、丁寧に練習してください。</p>
+        <div class="pinyin-list">
+          <span class="pinyin" data-sound="j">j</span>
+          <span class="pinyin" data-sound="q">q</span>
+          <span class="pinyin" data-sound="x">x</span>
+          <span class="pinyin" data-sound="z">z</span>
+          <span class="pinyin" data-sound="c">c</span>
+          <span class="pinyin" data-sound="s">s</span>
+          <span class="pinyin" data-sound="zh">zh</span>
+          <span class="pinyin" data-sound="ch">ch</span>
+          <span class="pinyin" data-sound="sh">sh</span>
+          <span class="pinyin" data-sound="r">r</span>
+        </div>
+        <div class="quiz-section" data-quiz-unit="section5">
+          <h3>発音練習クイズ</h3>
+          <p class="quiz-instructions">再生を押して音声を聴き、正しいピンインを選んでください。</p>
+          <div class="quiz-toolbar">
+            <button type="button" class="play-quiz-btn" data-quiz-play>▶ 再生</button>
+            <span class="quiz-score" data-quiz-score aria-live="polite"></span>
+          </div>
+          <div class="quiz-options" data-quiz-options></div>
+          <p class="quiz-result" data-quiz-result aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 6 -->
+    <div id="section6" class="page" role="region" aria-label="鼻母音" hidden>
+      <button type="button" class="back" data-goto="home">← 戻る</button>
+      <div class="card">
+        <h2>6. 鼻母音（鼻にかかる音）</h2>
+        <p>
+          前鼻母音（-n 終わり）：an, en, ian, in, uan（wan）、uen（wen）、üan（yuan）、ün（yun）<br>
+          後鼻母音（-ng 終わり）：ang, eng, ing, ong, uang（wang）、ueng（weng）、iang, iong（yong）
+        </p>
+        <p class="explanation">説明: 鼻母音は鼻腔を通る発音です。鼻にかかる感覚をしっかりつかみ、正確な発音を目指して練習してください。</p>
+        <div class="pinyin-list">
+          <span class="pinyin" data-sound="an">an</span>
+          <span class="pinyin" data-sound="en">en</span>
+          <span class="pinyin" data-sound="ian">ian</span>
+          <span class="pinyin" data-sound="in">in</span>
+          <span class="pinyin" data-sound="uan">uan</span>
+          <span class="pinyin" data-sound="uen">uen</span>
+          <span class="pinyin" data-sound="van" title="üan">üan</span>
+          <span class="pinyin" data-sound="vn" title="ün">ün</span>
+          <span class="pinyin" data-sound="ang">ang</span>
+          <span class="pinyin" data-sound="eng">eng</span>
+          <span class="pinyin" data-sound="ing">ing</span>
+          <span class="pinyin" data-sound="ong">ong</span>
+          <span class="pinyin" data-sound="uang">uang</span>
+          <span class="pinyin" data-sound="ueng">ueng</span>
+          <span class="pinyin" data-sound="iang">iang</span>
+          <span class="pinyin" data-sound="iong">iong</span>
+        </div>
+        <div class="quiz-section" data-quiz-unit="section6">
+          <h3>発音練習クイズ</h3>
+          <p class="quiz-instructions">再生を押して音声を聴き、正しいピンインを選んでください。</p>
+          <div class="quiz-toolbar">
+            <button type="button" class="play-quiz-btn" data-quiz-play>▶ 再生</button>
+            <span class="quiz-score" data-quiz-score aria-live="polite"></span>
+          </div>
+          <div class="quiz-options" data-quiz-options></div>
+          <p class="quiz-result" data-quiz-result aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 7: 声調聞き比べ（旧版の重複を解消し、録音を活用） -->
+    <div id="section7" class="page" role="region" aria-label="声調の聞き比べ" hidden>
+      <button type="button" class="back" data-goto="home">← 戻る</button>
+      <div class="card">
+        <h2>7. 声調の聞き比べ</h2>
+        <p class="explanation">同じ「ma」でも声調で意味が変わります。録音を聞き比べて耳を鍛えましょう。</p>
+
+        <h3>四声（mā má mǎ mà）</h3>
+        <div class="pinyin-list">
+          <span class="pinyin" data-sound="ma1" data-label="mā">mā 1</span>
+          <span class="pinyin" data-sound="ma2" data-label="má">má 2</span>
+          <span class="pinyin" data-sound="ma3" data-label="mǎ">mǎ 3</span>
+          <span class="pinyin" data-sound="ma4" data-label="mà">mà 4</span>
+        </div>
+        <p class="example-line">
+          まとめて聴く：
+          <button type="button" class="play-button" data-play="ma1234">1234 順</button>
+          <button type="button" class="play-button" data-play="ma1432">1432 順</button>
+          <button type="button" class="play-button" data-play="ma2143">2143 順</button>
+        </p>
+
+        <h3>第三声の連続</h3>
+        <p class="example-line">
+          <button type="button" class="play-button" data-play="ni3hao3">nǐ hǎo（表記）</button>
+          <button type="button" class="play-button" data-play="ni2hao3">ní hǎo（実際）</button>
+        </p>
+
+        <h3>よく似た声調ペア</h3>
+        <p class="example-line">
+          <button type="button" class="play-button" data-play="haoda34-laoda34">好大 / 老大</button>
+          <button type="button" class="play-button" data-play="huida22-huida43">回答 / 会大？</button>
+          <button type="button" class="play-button" data-play="meili34-meili44">美丽 / 魅力</button>
+        </p>
+
+        <div class="quiz-section" data-quiz-unit="section7">
+          <h3>声調クイズ</h3>
+          <p class="quiz-instructions">再生を押して、聞こえた声調（mā / má / mǎ / mà）を選んでください。</p>
+          <div class="quiz-toolbar">
+            <button type="button" class="play-quiz-btn" data-quiz-play>▶ 再生</button>
+            <span class="quiz-score" data-quiz-score aria-live="polite"></span>
+          </div>
+          <div class="quiz-options" data-quiz-options></div>
+          <p class="quiz-result" data-quiz-result aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 8 -->
+    <div id="section8" class="page" role="region" aria-label="声調符号" hidden>
+      <button type="button" class="back" data-goto="home">← 戻る</button>
+      <div class="card">
+        <h2>8. 声調符号の付け方</h2>
+        <p>
+          下記の順で母音の上に声調符号を付ける。<br>
+          a ⇒ o ⇒ e ⇒ i ⇒ u ⇒ ü<br>
+          例：dǎn shòu<br>
+          特例：ui と iu は後ろの母音に付ける。例：liù huì<br>
+          軽声：付ける必要なし
+        </p>
+        <p class="explanation">説明: 発音と文字の対応を理解するため、符号の付け方をしっかり確認してください。</p>
+      </div>
+    </div>
+
+    <!-- Section 9 -->
+    <div id="section9" class="page" role="region" aria-label="儿化" hidden>
+      <button type="button" class="back" data-goto="home">← 戻る</button>
+      <div class="card">
+        <h2>9. 儿化</h2>
+        <p class="example-line">
+          “儿化”とは、単語の末尾に「儿」を付けて発音する現象で、北京方言でよく見られる。<br>
+          例：花儿（huār）→ 花
+          <button type="button" class="play-button" data-play="huar">再生</button><br>
+          例：门儿（ménr）→ 門
+          <button type="button" class="play-button" data-play="menr">再生</button>
+        </p>
+        <p class="explanation">説明: 末尾の「儿」を付ける際のリズムと発音を意識して練習してください。</p>
+      </div>
+    </div>
+
+    <!-- Section 10 -->
+    <div id="section10" class="page" role="region" aria-label="隔音符号" hidden>
+      <button type="button" class="back" data-goto="home">← 戻る</button>
+      <div class="card">
+        <h2>10. 隔音符号（区切り記号）</h2>
+        <p class="example-line">
+          “a”、“o”、“e”で始まる音節の前に他の音節が来る場合、隔音符号（'）を入れて二つの音節を明確に分ける。<br>
+          例：xī'ān（西安）
+          <button type="button" class="play-button" data-play="xi,an">再生</button><br>
+          と xiān（先）
+          <button type="button" class="play-button" data-play="xian">再生</button>
+        </p>
+        <p class="explanation">説明: 正しい区切りを把握することで、発音の流れが理解しやすくなります。</p>
+      </div>
+    </div>
+
+    <!-- Section 11 -->
+    <div id="section11" class="page" role="region" aria-label="まとめ" hidden>
+      <button type="button" class="back" data-goto="home">← 戻る</button>
+      <div class="card">
+        <h2>11. ピンインのまとめ</h2>
+        <p class="explanation">これまで学んだピンインをカテゴリ別にまとめました。タップで発音を確認できます。</p>
+        <table id="pinyinSummaryTable">
+          <tbody id="pinyinSummaryBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+
+
+  <script>
+(function () {
+  'use strict';
+
+  /* ---------- データ ---------- */
+  // file: 音声ファイル名（拡張子なし） / label: 表示・クイズ用
+  const unitQuizData = {
+    section1: [
+      { file: 'a', label: 'a' }, { file: 'o', label: 'o' }, { file: 'e', label: 'e' },
+      { file: 'i', label: 'i' }, { file: 'u', label: 'u' }, { file: 'v', label: 'ü' }
+    ],
+    section2: [
+      { file: 'ai', label: 'ai' }, { file: 'ei', label: 'ei' }, { file: 'ao', label: 'ao' },
+      { file: 'ou', label: 'ou' }, { file: 'ia', label: 'ia' }, { file: 'ie', label: 'ie' },
+      { file: 'ua', label: 'ua' }, { file: 'uo', label: 'uo' }, { file: 've', label: 'üe' },
+      { file: 'iao', label: 'iao' }, { file: 'iou', label: 'iou' }, { file: 'uai', label: 'uai' },
+      { file: 'uei', label: 'uei' }, { file: 'er', label: 'er' }
+    ],
+    section3: [
+      { file: 'b', label: 'b' }, { file: 'p', label: 'p' }, { file: 'm', label: 'm' },
+      { file: 'f', label: 'f' }, { file: 'd', label: 'd' }, { file: 't', label: 't' },
+      { file: 'n', label: 'n' }, { file: 'l', label: 'l' }, { file: 'g', label: 'g' },
+      { file: 'k', label: 'k' }, { file: 'h', label: 'h' }
+    ],
+    section5: [
+      { file: 'j', label: 'j' }, { file: 'q', label: 'q' }, { file: 'x', label: 'x' },
+      { file: 'z', label: 'z' }, { file: 'c', label: 'c' }, { file: 's', label: 's' },
+      { file: 'zh', label: 'zh' }, { file: 'ch', label: 'ch' }, { file: 'sh', label: 'sh' },
+      { file: 'r', label: 'r' }
+    ],
+    section6: [
+      { file: 'an', label: 'an' }, { file: 'en', label: 'en' }, { file: 'ian', label: 'ian' },
+      { file: 'in', label: 'in' }, { file: 'uan', label: 'uan' }, { file: 'uen', label: 'uen' },
+      { file: 'van', label: 'üan' }, { file: 'vn', label: 'ün' }, { file: 'ang', label: 'ang' },
+      { file: 'eng', label: 'eng' }, { file: 'ing', label: 'ing' }, { file: 'ong', label: 'ong' },
+      { file: 'uang', label: 'uang' }, { file: 'ueng', label: 'ueng' }, { file: 'iang', label: 'iang' },
+      { file: 'iong', label: 'iong' }
+    ],
+    section7: [
+      { file: 'ma1', label: 'mā' }, { file: 'ma2', label: 'má' },
+      { file: 'ma3', label: 'mǎ' }, { file: 'ma4', label: 'mà' }
+    ]
+  };
+
+  const summaryCategories = {
+    '単母音': ['section1'],
+    '複母音': ['section2'],
+    '子音': ['section3', 'section5'],
+    '鼻母音': ['section6'],
+    '声調': ['section7']
+  };
+
+  /* ---------- 状態 ---------- */
+  let currentSectionId = 'home';
+  let currentAudio = null;
+  let currentPlayingEl = null;
+  let currentQuiz = null; // { file, label }
+  let quizLocked = false;
+  const quizStats = {}; // unitId -> { right, total }
+
+  const toastEl = document.getElementById('toast');
+  let toastTimer = null;
+
+  function toast(msg) {
+    if (!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { toastEl.classList.remove('show'); }, 2200);
+  }
+
+  function prefersReducedMotion() {
+    return window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  }
+
+  /* ---------- 音声（単一 Audio・クロスブラウザ） ---------- */
+  function getAudio() {
+    if (!currentAudio) {
+      currentAudio = new Audio();
+      currentAudio.preload = 'auto';
+    }
+    return currentAudio;
+  }
+
+  function clearPlayingUI() {
+    if (currentPlayingEl) {
+      currentPlayingEl.classList.remove('is-playing');
+      currentPlayingEl = null;
+    }
+    document.querySelectorAll('.is-playing').forEach(function (el) {
+      el.classList.remove('is-playing');
+    });
+  }
+
+  function stopAudio() {
+    var a = currentAudio;
+    if (!a) return;
+    try {
+      a.onended = null;
+      a.onerror = null;
+      a.pause();
+      a.currentTime = 0;
+    } catch (e) {}
+    clearPlayingUI();
+  }
+
+  /** ファイル名 → sound/xxx.mp3（カンマ等を安全にエンコード） */
+  function soundUrl(fileBase) {
+    // encodeURI はスラッシュを残し、カンマ等をエンコード
+    return 'sound/' + encodeURI(fileBase) + '.mp3';
+  }
+
+  /**
+   * 再生
+   * @param {string} fileBase 拡張子なし
+   * @param {Element|null} uiEl 再生中スタイルを付ける要素
+   * @returns {Promise<boolean>}
+   */
+  function playSoundFile(fileBase, uiEl) {
+    if (!fileBase) return Promise.resolve(false);
+
+    // 同じ要素をもう一度押したら停止（既存仕様）
+    if (
+      uiEl &&
+      currentPlayingEl === uiEl &&
+      currentAudio &&
+      !currentAudio.paused &&
+      !currentAudio.ended
+    ) {
+      stopAudio();
+      return Promise.resolve(true);
+    }
+
+    stopAudio();
+    var a = getAudio();
+    var url = soundUrl(fileBase);
+
+    return new Promise(function (resolve) {
+      var settled = false;
+      function done(ok) {
+        if (settled) return;
+        settled = true;
+        resolve(!!ok);
+      }
+
+      a.src = url;
+      if (uiEl) {
+        uiEl.classList.remove('is-error');
+        uiEl.classList.add('is-playing');
+        currentPlayingEl = uiEl;
+      }
+
+      a.onended = function () {
+        clearPlayingUI();
+        done(true);
+      };
+      a.onerror = function () {
+        clearPlayingUI();
+        if (uiEl) uiEl.classList.add('is-error');
+        toast('音声を再生できません（' + fileBase + '）');
+        done(false);
+      };
+
+      var p = a.play();
+      if (p && typeof p.then === 'function') {
+        p.then(function () { /* playing */ }).catch(function (err) {
+          clearPlayingUI();
+          // 自動再生ブロックなど
+          toast('再生がブロックされました。もう一度タップしてください');
+          done(false);
+        });
+      }
+    });
+  }
+
+  /* 互換 API: 旧 onclick="playSound('x')" 用にも使える */
+  window.playSound = function (filename, el) {
+    return playSoundFile(filename, el || null);
+  };
+
+  /* ---------- リップル ---------- */
+  function addRipple(el) {
+    if (!el || el.getAttribute('data-ripple') === '1') return;
+    if (prefersReducedMotion()) return;
+    el.setAttribute('data-ripple', '1');
+    el.addEventListener('pointerdown', function (e) {
+      if (e.button != null && e.button !== 0) return;
+      var rect = el.getBoundingClientRect();
+      var d = Math.max(rect.width, rect.height);
+      var r = document.createElement('span');
+      r.className = 'ripple';
+      r.style.width = r.style.height = d + 'px';
+      var x = (e.clientX != null ? e.clientX : rect.left + rect.width / 2);
+      var y = (e.clientY != null ? e.clientY : rect.top + rect.height / 2);
+      r.style.left = (x - rect.left - d / 2) + 'px';
+      r.style.top = (y - rect.top - d / 2) + 'px';
+      el.appendChild(r);
+      r.addEventListener('animationend', function () {
+        if (r.parentNode) r.parentNode.removeChild(r);
+      });
+      // animationend が来ない環境向け
+      setTimeout(function () {
+        if (r.parentNode) r.parentNode.removeChild(r);
+      }, 700);
+    }, { passive: true });
+  }
+
+  /* ---------- ページ切替 ---------- */
+  function showSection(sectionId) {
+    if (!sectionId) sectionId = 'home';
+    var pages = document.querySelectorAll('.page');
+    for (var i = 0; i < pages.length; i++) {
+      var page = pages[i];
+      var on = page.id === sectionId;
+      page.classList.remove('active', 'animate-in');
+      page.hidden = !on;
+      if (on) {
+        page.classList.add('active');
+        // 再アニメ
+        void page.offsetWidth;
+        page.classList.add('animate-in');
+      }
+    }
+    currentSectionId = sectionId;
+    stopAudio();
+    quizLocked = false;
+
+    if (sectionId === 'section11') generateSummaryTable();
+
+    try {
+      window.scrollTo({ top: 0, behavior: prefersReducedMotion() ? 'auto' : 'smooth' });
+    } catch (e) {
+      window.scrollTo(0, 0);
+    }
+
+    // ハッシュ（共有・戻るボタン）
+    try {
+      var hash = sectionId === 'home' ? '' : '#' + sectionId;
+      if (history.replaceState) {
+        history.replaceState(null, '', hash || location.pathname + location.search);
+      } else if (!hash) {
+        location.hash = '';
+      } else {
+        location.hash = sectionId;
+      }
+    } catch (e) {}
+  }
+
+  function backHome() {
+    showSection('home');
+  }
+  window.showSection = showSection;
+  window.backHome = backHome;
+
+  /* ---------- ピンインボタン ---------- */
+  function attachPinyinClickListener(elem) {
+    if (!elem || elem.getAttribute('data-bound') === '1') return;
+    elem.setAttribute('data-bound', '1');
+    elem.setAttribute('role', 'button');
+    if (!elem.hasAttribute('tabindex')) elem.setAttribute('tabindex', '0');
+
+    var label = elem.getAttribute('data-label') || elem.textContent.trim();
+    var sound = elem.getAttribute('data-sound');
+    if (sound && !elem.getAttribute('aria-label')) {
+      elem.setAttribute('aria-label', label + ' を再生');
+    }
+
+    function play() {
+      var soundName = elem.getAttribute('data-sound');
+      if (!soundName) return;
+      playSoundFile(soundName, elem);
+    }
+
+    elem.addEventListener('click', play);
+    elem.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        play();
+      }
+    });
+    addRipple(elem);
+  }
+
+  document.querySelectorAll('.pinyin').forEach(attachPinyinClickListener);
+
+  /* ナビ・戻る・再生ボタン（委譲） */
+  document.addEventListener('click', function (e) {
+    var gotoBtn = e.target.closest('[data-goto]');
+    if (gotoBtn) {
+      e.preventDefault();
+      showSection(gotoBtn.getAttribute('data-goto'));
+      return;
+    }
+    var playBtn = e.target.closest('[data-play]');
+    if (playBtn) {
+      e.preventDefault();
+      playSoundFile(playBtn.getAttribute('data-play'), playBtn);
+      return;
+    }
+    var quizPlay = e.target.closest('[data-quiz-play]');
+    if (quizPlay) {
+      e.preventDefault();
+      var section = quizPlay.closest('.page');
+      var quiz = quizPlay.closest('.quiz-section');
+      if (section && quiz) startQuiz(section.id, quiz, false);
+    }
+  });
+
+  document.querySelectorAll('.nav-btn, .back, .play-button, .play-quiz-btn').forEach(addRipple);
+
+  /* ---------- クイズ ---------- */
+  function shuffle(arr) {
+    var a = arr.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+
+  function updateQuizScore(unitId, quizRoot) {
+    var s = quizStats[unitId] || { right: 0, total: 0 };
+    var el = quizRoot.querySelector('[data-quiz-score]');
+    if (el) {
+      el.textContent = s.total ? ('正解 ' + s.right + ' / ' + s.total) : '';
+    }
+  }
+
+  function startQuiz(sectionId, quizRoot, keepQuestion) {
+    var data = unitQuizData[sectionId];
+    if (!data || !data.length || !quizRoot) return;
+
+    quizLocked = false;
+    if (!quizStats[sectionId]) quizStats[sectionId] = { right: 0, total: 0 };
+
+    var instructions = quizRoot.querySelector('.quiz-instructions');
+    if (instructions) instructions.style.display = 'none';
+
+    var optionsDiv = quizRoot.querySelector('[data-quiz-options]');
+    var resultP = quizRoot.querySelector('[data-quiz-result]');
+    var playBtn = quizRoot.querySelector('[data-quiz-play]');
+    if (!optionsDiv || !resultP) return;
+
+    resultP.textContent = '';
+    resultP.classList.remove('pop');
+
+    if (!keepQuestion || !currentQuiz) {
+      currentQuiz = data[Math.floor(Math.random() * data.length)];
+    }
+
+    // 選択肢（最大4、データが少ない場合はその数）
+    var optCount = Math.min(4, data.length);
+    var options = [currentQuiz];
+    var guard = 0;
+    while (options.length < optCount && guard < 80) {
+      guard++;
+      var opt = data[Math.floor(Math.random() * data.length)];
+      var exists = options.some(function (o) { return o.file === opt.file; });
+      if (!exists) options.push(opt);
+    }
+    options = shuffle(options);
+
+    optionsDiv.innerHTML = '';
+    options.forEach(function (option) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.textContent = option.label;
+      btn.setAttribute('data-file', option.file);
+      addRipple(btn);
+      btn.addEventListener('click', function () {
+        if (quizLocked || !currentQuiz) return;
+        quizLocked = true;
+        quizStats[sectionId].total++;
+
+        var buttons = optionsDiv.querySelectorAll('button');
+        for (var i = 0; i < buttons.length; i++) {
+          buttons[i].disabled = true;
+          if (buttons[i].getAttribute('data-file') === currentQuiz.file) {
+            buttons[i].classList.add('is-correct');
+          }
+        }
+
+        if (option.file === currentQuiz.file) {
+          quizStats[sectionId].right++;
+          btn.classList.add('is-correct');
+          var encouragements = ['素晴らしい！', 'その調子！', 'よくできました！', 'お見事です！'];
+          resultP.textContent = encouragements[Math.floor(Math.random() * encouragements.length)];
+          resultP.classList.add('pop');
+          updateQuizScore(sectionId, quizRoot);
+          setTimeout(function () { startQuiz(sectionId, quizRoot, false); }, 1600);
+        } else {
+          btn.classList.add('is-wrong');
+          resultP.textContent = '残念、正解は「' + currentQuiz.label + '」です。もう一度聴いてみましょう。';
+          resultP.classList.add('pop');
+          updateQuizScore(sectionId, quizRoot);
+          // 同じ問題を維持して再生し直せる
+          setTimeout(function () {
+            quizLocked = false;
+            for (var j = 0; j < buttons.length; j++) {
+              buttons[j].disabled = false;
+              buttons[j].classList.remove('is-wrong', 'is-correct');
+            }
+            playSoundFile(currentQuiz.file, playBtn);
+          }, 1400);
+        }
+      });
+      optionsDiv.appendChild(btn);
+    });
+
+    updateQuizScore(sectionId, quizRoot);
+    playSoundFile(currentQuiz.file, playBtn);
+  }
+
+  // 旧 API 互換
+  window.startQuiz = function (keepQuestion) {
+    var section = document.getElementById(currentSectionId);
+    if (!section) return;
+    var quiz = section.querySelector('.quiz-section');
+    if (quiz) startQuiz(currentSectionId, quiz, !!keepQuestion);
+  };
+
+  /* ---------- まとめ表 ---------- */
+  function generateSummaryTable() {
+    var body = document.getElementById('pinyinSummaryBody');
+    if (!body) return;
+    var columns = 5;
+    var html = '';
+    var catNames = Object.keys(summaryCategories);
+    for (var c = 0; c < catNames.length; c++) {
+      var category = catNames[c];
+      var sections = summaryCategories[category];
+      var combined = [];
+      var seen = {};
+      for (var s = 0; s < sections.length; s++) {
+        var list = unitQuizData[sections[s]] || [];
+        for (var k = 0; k < list.length; k++) {
+          var item = list[k];
+          if (!seen[item.file]) {
+            seen[item.file] = true;
+            combined.push(item);
+          }
+        }
+      }
+      html += '<tr class="category-header"><td colspan="' + columns + '">' + category + '</td></tr>';
+      for (var i = 0; i < combined.length; i += columns) {
+        html += '<tr>';
+        for (var j = i; j < i + columns; j++) {
+          if (combined[j]) {
+            var it = combined[j];
+            html += '<td><span class="pinyin" data-sound="' + it.file + '" data-label="' + it.label + '">' + it.label + '</span></td>';
+          } else {
+            html += '<td></td>';
+          }
+        }
+        html += '</tr>';
+      }
+    }
+    body.innerHTML = html;
+    body.querySelectorAll('.pinyin').forEach(attachPinyinClickListener);
+  }
+
+  /* ---------- 初期化：ハッシュ / popstate ---------- */
+  function sectionFromHash() {
+    var h = (location.hash || '').replace(/^#/, '');
+    if (h && document.getElementById(h)) return h;
+    return 'home';
+  }
+
+  // 初期表示
+  showSection(sectionFromHash());
+
+  window.addEventListener('hashchange', function () {
+    showSection(sectionFromHash());
+  });
+
+  // Escape でホームへ
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && currentSectionId !== 'home') {
+      showSection('home');
+    }
+  });
+})();
+  </script>
+  <footer class="site-footer">中国語入門 · ピンイン練習</footer>
+</body>
+</html>
